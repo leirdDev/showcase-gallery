@@ -17,5 +17,5 @@ res.json({ message: "ShowCase API is running!" });
 app.use("/api/products", productRoutes);
 
 connectDB().then(() => {
-app.Listen(PORT, () => console.Log('Server running on port ${PORT}'));
+app.listen(PORT, () => console.Log('Server running on port ${PORT}'));
 });
