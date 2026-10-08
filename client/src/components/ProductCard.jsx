@@ -11,7 +11,7 @@ function ProductCard({ product, showActions, onEdit, onDelete }) {
                     className="h-full w-full object-cover transition duration-500 group-hover:scale-105"></img>
 
                 <span className="absolute right-3 top-3 rounded-full bg-white/90 px-3 py-1 text-sm font-bold text-indigo-600 shadow">
-                    p{Number(product.price).toLocaleString()}
+                ₱{Number(product.price).toLocaleString()}
                 </span>
             </div>
 

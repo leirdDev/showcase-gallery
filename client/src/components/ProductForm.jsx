@@ -54,7 +54,7 @@ function ProductForm({ editingProduct, onSubmit, onCancel }) {
     
             <input name="name" placeholder="Product name" className={inputClass}
                 valve={form.name} onChange={handleChange} />
-            <input name="price" type="number" min="0" placeholder="Price (p)"
+            <input name="price" type="number" min="0" placeholder="Price (₱)"
                 className={inputClass} value={form.price} onChange={handleChange} />
             <textarea name="description" rows="3" placeholder="Short description"
                 className={inputClass} value={form.description}
